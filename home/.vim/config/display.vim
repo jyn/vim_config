@@ -5,7 +5,8 @@
 " use the solarized colorscheme
 " set background=dark
 " colorscheme solarized
-colorscheme ir_black
+" colorscheme ir_black
+colorscheme twilight2
 
 set laststatus=2   " always display a status line
 set number         " show line numbers
