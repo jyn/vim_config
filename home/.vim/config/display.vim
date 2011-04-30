@@ -3,8 +3,9 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
 " use the solarized colorscheme
-set background=dark
-colorscheme solarized
+" set background=dark
+" colorscheme solarized
+colorscheme vilight
 
 set laststatus=2   " always display a status line
 set number         " show line numbers
