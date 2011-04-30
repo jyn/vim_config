@@ -8,14 +8,16 @@ if has("gui_running")
    " this
    " Set to 5, because the solarized colorscheme uses blue instead of black
    set transp=5
-  
+
    "" gui options
    " a - Autoselect
    " c - Use console dialogs instead of popup dialogs for simple choices.
-   " 
+   "
    " more interesting, what is absent: no menu, no toolbar, no scrollbars.
-   set guioptions=ac
+   " set guioptions=ac
 
    set lines=60
    set columns=180
+
+   set gfn=Monaco:h12
 endif

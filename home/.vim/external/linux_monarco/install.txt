@@ -1,0 +1,11 @@
+The instructions for this come straight off
+
+http://www.mattfitz.info/library/article/310
+
+To install the monarco font for linux, do the following:
+
+sudo mkdir /usr/share/fonts/truetype/custom
+sudo mv Monaco_Linux.ttf /usr/share/fonts/truetype/custom/
+sudo fc-cache -f -v
+
+
