@@ -7,7 +7,7 @@ if has("gui_running")
    " If you're using MacVim, you'll want to use the experimental renderer for
    " this
    " Set to 5, because the solarized colorscheme uses blue instead of black
-   set transp=5
+   " set transp=5
 
    "" gui options
    " a - Autoselect
