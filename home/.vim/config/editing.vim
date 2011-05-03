@@ -16,9 +16,9 @@ set listchars=tab:▸\ ,eol:¬,trail:☠
 
 " spaces instead of tabs
 " prefer 3 spaces
-set softtabstop=3
-set tabstop=3
-set shiftwidth=3
+set softtabstop=2
+set tabstop=2
+set shiftwidth=2
 set expandtab
 
 set autoread     " automatically reload a file if it's changed outside vim
