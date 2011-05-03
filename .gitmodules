@@ -88,3 +88,6 @@
 [submodule "home/.vim/bundle/autoclose"]
   path = home/.vim/bundle/autoclose
   url = https://github.com/Townk/vim-autoclose.git
+[submodule "home/.vim/snippets"]
+	path = home/.vim/snippets
+	url = git@github.com:jyn/snipmate-snippets.git
