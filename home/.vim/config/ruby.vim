@@ -9,7 +9,10 @@ autocmd FileType yaml  call LoadRubyKeybindings()
 
 fun LoadRubyKeybindings()
    " bind control-l to hashrocket
-   imap <buffer> <C-l> <Space>=><Space>"
+   imap <buffer> <C-l> <Space>=><Space>
+
+   " bind control-shift > to <%= %> just like textmate
+   imap <buffer> <C-S-.> %=<Tab>
 
    " bind control-k to turn the current word into a symbol
    imap <buffer> <C-k> <C-o>b:<Esc>Ea
@@ -17,5 +20,5 @@ fun LoadRubyKeybindings()
 
    " set the foldmethod to 'syntax'
    setlocal foldmethod=syntax
-   setlocal foldlevel=2
+   "setlocal foldlevel=2
 endfun
