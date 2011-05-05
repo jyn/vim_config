@@ -11,8 +11,8 @@ fun LoadRubyKeybindings()
    " bind control-l to hashrocket
    imap <buffer> <C-l> <Space>=><Space>
 
-   " bind control-k to <%= %> similar to Textmate
-   imap <buffer> <C-k> %=<Tab>
+   " bind control-e to <%= %> similar to Textmate
+   imap <buffer> <C-e> %=<Tab>
 
    " bind control-k to turn the current word into a symbol
    imap <buffer> <C-k> <C-o>b:<Esc>Ea
